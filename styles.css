@@ -1,0 +1,72 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #131212; /* Dark background color */
+}
+
+/* Container styles for forms */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    font-family: 'Ubuntu'; /* Use Ubuntu font */
+    padding: 20px;
+    background: transparent; /* Transparent background */
+    border-radius: 35px; /* Rounded corners */
+    color: azure; /* Text color */
+    box-shadow: 0 0 15px #0000CD; /* Blue box shadow */
+}
+
+/* Container styles for welcome message */
+.welcome {
+    max-width: 400px;
+    margin: 50px auto;
+    font-family: 'Ubuntu'; /* Use Ubuntu font */
+    padding: 20px;
+    background: transparent; /* Transparent background */
+    border-radius: 35px; /* Rounded corners */
+    color: azure; /* Text color */
+    text-shadow: 2px 2px 4px #0000CD; /* Text shadow */
+    box-shadow: 0 0 15px #0000CD; /* Blue box shadow */
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    height: 30px;
+    border: none;
+    font-family: 'Ubuntu'; /* Use Ubuntu font */
+    margin: 10px auto;
+    color: azure; /* Text color */
+    box-sizing: border-box;
+    border-radius: 15px; /* Rounded corners */
+    border-bottom: 2px solid #0000CD; /* Blue bottom border */
+    box-shadow: 0 0 5px rgb(255,255,255); /* White box shadow */
+    background: transparent; /* Transparent background */
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: rgba(255,255,255,0.13); /* Semi-transparent white background */
+    color: white; /* Text color */
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #131212; /* Dark background color */
+}
+
+/* Link styles */
+a {
+    color: #0000CD; /* Blue link color */
+}
+
+/* Hover effect for links */
+a:hover {
+    color: darkblue; /* Dark blue color on hover */
+}
